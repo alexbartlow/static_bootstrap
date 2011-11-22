@@ -1,0 +1,25 @@
+<% @title = "Columbus Math"%>
+<html>
+  <head>
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/application.css">
+    <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+
+    <title><%= @title %></title>
+  </head>
+
+  <body>
+    <header class="topbar">
+      <div class="topbar-inner">
+        <div class="container">
+          <a href="#" class="brand"><%= @title %></a>
+          <ul class="nav">
+            <%= li_link_to("Home", '/') %>
+            <%= li_link_to("Deck", '/deck') %>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <%= yield %>
+  </body>
+</html>
