@@ -6,3 +6,5 @@ gem 'therubyracer'
 gem 'thin'
 gem 'slim'
 
+gem 'guard'
+gem 'guard-livereload'

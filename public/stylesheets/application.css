@@ -1,5 +1,24 @@
-#map_canvas {
-  height: 90%;
+#app {
+  height: 100%;
+  padding: 0 !important;
+}
+div.navbar {
+  margin-bottom: 0 !important;
+}
+#leftnav {
+  height: 100%;
+}
+.well {
+  height: 100%;
+  padding: 8px 0;
+}
+.well li {
+  clear: both;
+  width: 100%;
+}
+
+.well li span.badge {
+  float: right !important;
 }
 .input-prepend .active, .input-append .active {
   color: #003600;
