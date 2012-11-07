@@ -1,29 +1,38 @@
-#app {
-  height: 100%;
-  padding: 0 !important;
-}
-div.navbar {
-  margin-bottom: 0 !important;
-}
-#leftnav {
-  height: 100%;
-}
-.well {
-  height: 100%;
-  padding: 8px 0;
-}
-.well li {
-  clear: both;
-  width: 100%;
-}
+.green {
+  color: #5c7858; }
 
-.well li span.badge {
-  float: right !important;
-}
-.input-prepend .active, .input-append .active {
-  color: #003600;
-}
+.pink {
+  color: #eec5b3; }
 
-.input-prepend .add-on, .input-append .add-on{
-  width: 2em;
-}
+div.navbar + div {
+  margin-top: 40px; }
+
+.center {
+  text-align: center; }
+
+.center-circle {
+  background: rgba(238, 197, 179, 0.8);
+  border-radius: 500px;
+  height: 300px;
+  width: 300px;
+  margin: 10px auto 0 auto; }
+  .center-circle h3 {
+    padding-top: 75px;
+    width: 100%;
+    text-align: center; }
+
+.small {
+  font-size: 75%; }
+
+body {
+  background: url("/images/cranes.png") top right no-repeat; }
+
+body > .container {
+  background-color: rgba(255, 255, 255, 0.9); }
+
+#hero {
+  margin-top: 100px; }
+  #hero h1 {
+    font-size: 54pt; }
+  #hero h2 {
+    font-size: 36pt; }

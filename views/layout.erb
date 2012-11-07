@@ -1,16 +1,17 @@
-<% @title = "Columbus Math"%>
+<% @title = "Hannah and Alex's Wedding"%>
 <html>
   <head>
     <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
     <link rel="stylesheet" href="/stylesheets/application.css">
     <script type="text/javascript" src="/javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascripts/bootstrap.min.js"></script>
 
     <title><%= @title %></title>
   </head>
 
   <body>
-    <header class="topbar">
-      <div class="topbar-inner">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
         <div class="container">
           <a href="#" class="brand"><%= @title %></a>
           <ul class="nav">
@@ -19,7 +20,7 @@
           </ul>
         </div>
       </div>
-    </header>
+    </div>
     <%= yield %>
   </body>
 </html>
